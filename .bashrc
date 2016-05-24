@@ -1,5 +1,5 @@
-#edit a file that will be loaded when opening a terminal like .bashrc
-vim ~/.bashrc 
+#....
+# bashrc default content
 
 # a function with two parameters to stash not indexed files with a message (param1) than checkout the requested branch (param 2)
 git_stash_and_get_branch () {
@@ -23,3 +23,5 @@ git_update_branch1_from_branch2 () {
 ##   ALIAS    ##
 alias update_branch=git_update_branch1_from_branch2
 alias stash_then_branch=git_stash_and_get_branch
+
+alias graph_log=git log --pretty=oneline --abbrev-commit --graph
