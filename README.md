@@ -1,1 +1,1 @@
-# git_aliases
+# Git Aliases
