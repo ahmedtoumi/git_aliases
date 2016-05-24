@@ -31,3 +31,7 @@ $ stash_then_branch "put stash message here ..." branch_to_switch_on
 ```shell
 $ graph_log
 ```
+#### show what have been changed from last commit
+```shell
+$ dlc
+```
