@@ -29,5 +29,5 @@ $ stash_then_branch "put stash message here ..." branch_to_switch_on
 ```
 #### show log with git graph
 ```shell
-graph_log
+$ graph_log
 ```
