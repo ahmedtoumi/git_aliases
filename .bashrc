@@ -25,3 +25,4 @@ alias update_branch=git_update_branch1_from_branch2
 alias stash_then_branch=git_stash_and_get_branch
 
 alias graph_log=git log --pretty=oneline --abbrev-commit --graph
+alias dlc=git diff --cached HEAD^
