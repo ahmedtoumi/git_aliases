@@ -35,3 +35,7 @@ $ graph_log
 ```shell
 $ dlc
 ```
+#### clean local git : delete all branchs that has been merged with master
+```shell
+clean_local
+```
