@@ -17,7 +17,7 @@ EX:
 $ source ~/.bashrc
 ```
 
-### Some examples with created aliases
+### Some examples with created aliases (see [.bashrc] (https://github.com/ahmedtoumi/git_aliases/blob/master/.bashrc) file to get real shell commands)
 
 #### update branch1 than make it up to date to master
 ```shell
@@ -37,5 +37,5 @@ $ dlc
 ```
 #### clean local git : delete all branchs that has been merged with master
 ```shell
-clean_local
+$ clean_local
 ```
