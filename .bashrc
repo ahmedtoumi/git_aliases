@@ -26,3 +26,4 @@ alias stash_then_branch=git_stash_and_get_branch
 
 alias graph_log=git log --pretty=oneline --abbrev-commit --graph
 alias dlc=git diff --cached HEAD^
+alias clean_local=git branch --merged master | grep -v "master$" | xargs -r git branch -d
